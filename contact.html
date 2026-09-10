@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>고객지원 | 초원</title>
+    <meta name="description" content="초원 혼합조사료 제품 및 공급 관련 문의를 안내합니다. 대표전화, 팩스와 충북 증평 사업장 정보를 확인하실 수 있습니다.">
+
+    <link rel="icon" type="image/png" href="assets/images/chowon-logo.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+    <div class="header-inner">
+
+        <a href="index.html" class="logo">
+            <img src="assets/images/chowon-logo.png" alt="초원 혼합조사료 전문기업">
+        </a>
+
+        <nav class="main-nav">
+            <ul>
+                <li>
+                    <a href="about.html">회사소개</a>
+                    <ul class="sub-menu">
+                        <a href="about.html#greeting">인사말</a></li>
+                        <a href="about.html#overview">회사개요</a>
+                        <a href="about.html#location">오시는 길</a>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="product.html">제품소개</a>
+                    <ul class="sub-menu">
+                        <li></li><a href="product.html#mixed-feed">혼합조사료</a></li>
+                        <li></li><a href="product.html#features">제품 특징</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="facility.html">생산시설</a>
+                    <ul class="sub-menu">
+                        <li><a href="facility.html#factory">공장소개</a></li>
+                        <li><a href="facility.html#equipment">생산설비</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="technology.html">기술·사업</a>
+                    <ul class="sub-menu">
+                        <li><a href="technology.html#mixed-feed">혼합조사료 특징</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="contact.html">고객지원</a>
+                    <ul class="sub-menu">
+                        <li><a href="contact.html#contact">문의하기</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <a href="contact.html#contact" class="header-contact">문의하기</a>
+
+        <button class="mobile-menu-button" type="button" aria-label="메뉴 열기">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="mobile-menu">
+            <nav class="mobile-nav">
+                <a href="about.html">회사소개</a>
+                <a href="product.html">제품소개</a>
+                <a href="facility.html">생산시설</a>
+                <a href="technology.html">기술·사업</a>
+                <a href="contact.html">고객지원</a>
+            </nav>
+        </div>
+
+    </div>
+</header>
+
+
+    <main>
+
+        <!-- Company Intro Visual -->
+        <section class="sub-visual about-visual">
+            <div class="sub-visual-content">
+                <h1>고객지원</h1>
+                <p>초원에 궁금하신 사항을 문의해 주세요.</p>
+            </div>
+        </section>
+
+<section class="contact-info-section" id="contact">
+    <div class="contact-info-inner">
+
+        <div class="contact-info-heading">
+            <span>문의하기</span>
+
+            <h2>
+                초원에 궁금하신 사항을<br>
+                편하게 문의해 주세요.
+            </h2>
+
+            <p>
+                제품 및 공급 관련 문의사항은 대표전화로 연락해 주시면
+                친절하게 안내드리겠습니다.
+            </p>
+        </div>
+
+        <div class="contact-info-list">
+
+            <div class="contact-info-item">
+                <span>대표전화</span>
+                <strong>043-838-7877</strong>
+            </div>
+
+            <div class="contact-info-item">
+                <span>팩스</span>
+                <strong>043-838-7875</strong>
+            </div>
+
+            <div class="contact-info-item">
+                <span>사업장</span>
+                <strong>충북 증평군 증평읍 연탄리 산68-12</strong>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<script>
+    const menuButton = document.querySelector('.mobile-menu-button');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    menuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('active');
+    });
+</script>
+
+</body>
+</html>
