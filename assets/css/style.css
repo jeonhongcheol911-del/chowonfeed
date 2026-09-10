@@ -606,6 +606,36 @@ ul {
     text-align: center;
 }
 
+.about-visual {
+    background:
+        linear-gradient(rgba(13, 48, 37, 0.76), rgba(13, 48, 37, 0.76)),
+        url("../images/hero-about.png") center center / cover no-repeat;
+}
+
+.product-visual {
+    background:
+        linear-gradient(rgba(13, 48, 37, 0.76), rgba(13, 48, 37, 0.76)),
+        url("../images/hero-product.png") center center / cover no-repeat;
+}
+
+.facility-visual {
+    background:
+        linear-gradient(rgba(13, 48, 37, 0.76), rgba(13, 48, 37, 0.76)),
+        url("../images/hero-facility.png") center center / cover no-repeat;
+}
+
+.technology-visual {
+    background:
+        linear-gradient(rgba(13, 48, 37, 0.76), rgba(13, 48, 37, 0.76)),
+        url("../images/hero-technology.png") center center / cover no-repeat;
+}
+
+.contact-visual {
+    background:
+        linear-gradient(rgba(13, 48, 37, 0.76), rgba(13, 48, 37, 0.76)),
+        url("../images/hero-contact.png") center center / cover no-repeat;
+}
+
 .sub-visual-content {
     width: calc(100% - 40px);
     max-width: 1200px;
